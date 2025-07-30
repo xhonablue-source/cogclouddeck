@@ -1,0 +1,54 @@
+# Web Project Dependencies for Cognitive Cloud Education Website
+
+## CDN Dependencies (External)
+# These are loaded via CDN in the HTML file:
+
+# Tailwind CSS (utility-first CSS framework)
+https://cdn.tailwindcss.com
+
+# Chart.js (JavaScript charting library)
+https://cdn.jsdelivr.net/npm/chart.js
+
+# Google Fonts API (Inter font family)
+https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap
+https://fonts.gstatic.com (preconnect for performance)
+
+## Core Technologies
+# These are built into browsers, no installation needed:
+- HTML5
+- CSS3
+- Vanilla JavaScript (ES6+)
+
+## Development Dependencies (if setting up a development environment)
+# If you wanted to set up a local development environment, you might use:
+
+# Node.js package.json equivalent would be:
+# {
+#   "devDependencies": {
+#     "tailwindcss": "^3.0.0",
+#     "chart.js": "^4.0.0",
+#     "live-server": "^1.2.2" (for local development)
+#   }
+# }
+
+## Browser Requirements
+# Minimum browser versions for full compatibility:
+- Chrome 80+
+- Firefox 75+
+- Safari 13+
+- Edge 80+
+
+## Web Server Requirements
+# Any static web server can host this site:
+- Apache HTTP Server
+- Nginx
+- Node.js (Express, http-server)
+- Python (http.server module)
+- Any CDN/hosting service (Netlify, Vercel, GitHub Pages, etc.)
+
+## Optional Development Tools
+# For enhanced development experience:
+- Live reload server (live-server, browser-sync)
+- Code formatter (Prettier)
+- Linter (ESLint for JavaScript)
+- Version control (Git)
